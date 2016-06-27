@@ -14,8 +14,7 @@ func main() {
 	neg := adder()
 	for i := 0; i < 10; i++ {
 		fmt.Println(
-			// pos(i),
-			neg(-2*1),
+			neg(-2),
 		)
 	}
 }
